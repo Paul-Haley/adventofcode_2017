@@ -5,7 +5,6 @@
 
 int main(int argc, char** argv) {
     const int n = atoi(argv[1]);
-    //const int length = (int) ceil(sqrt(start));
     int i = 1; // value in spiral
     int l = 1; // length of side for current spiral level
     int s = 3; // side number going CCW from LHS

@@ -1,2 +1,6 @@
 id
+/bin/
+*.out
+.classpath
+.project
 
