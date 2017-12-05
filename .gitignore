@@ -3,4 +3,5 @@ id
 *.out
 .classpath
 .project
+*.class
 
