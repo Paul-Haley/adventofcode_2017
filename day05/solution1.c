@@ -24,14 +24,6 @@ int main(int argc, char** argv) {
         }
     }
     fclose(fd);
-    int j = 0;
-    FILE* q = fopen("cats", "w");
-    for (; j < cur; ++j) {
-        fprintf(q, "%d\n", numbers[j]);
-    }
-    fprintf(q,"\n");
-    fclose(q);
-
 
     int i = 0;
     unsigned jumps = 0;

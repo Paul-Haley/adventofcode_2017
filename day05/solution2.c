@@ -24,20 +24,13 @@ int main(int argc, char** argv) {
         }
     }
     fclose(fd);
-    int j = 0;
-    FILE* q = fopen("cats", "w");
-    for (; j < cur; ++j) {
-        fprintf(q, "%d\n", numbers[j]);
-    }
-    fprintf(q,"\n");
-    fclose(q);
-
 
     int i = 0;
+    int old = -1;
     unsigned jumps = 0;
     for(;;) {
         ++jumps;
-        int old = i;
+        old = i;
         i += numbers[i];
         numbers[old] += numbers[old] >= 3 ? -1 : 1;
         if (i < 0 || i >= cur) {
