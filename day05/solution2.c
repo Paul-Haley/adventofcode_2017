@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
         ++jumps;
         int old = i;
         i += numbers[i];
-        numbers[old] += 1;
+        numbers[old] += numbers[old] >= 3 ? -1 : 1;
         if (i < 0 || i >= cur) {
             break;
         }
