@@ -12,4 +12,4 @@ for line in file:
         else:
             above.add(i[0:])
 file.close()
-print("bottom is ", seen.difference(above))
+print(seen.difference(above).pop())
