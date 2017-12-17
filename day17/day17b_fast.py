@@ -1,4 +1,4 @@
-sl = [-1 for i in range(50000001)]
+sl = [-1] * 50000001 #initialisation
 sl[0] = 0
 index = 0
 step = 328
