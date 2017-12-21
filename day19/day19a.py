@@ -26,7 +26,7 @@ for i in range(len(grid[0])):
 #following path now
 seen = []
 d = 2 # 0 for N, 1 is E, 2 is S, 3 is W
-while x >= 0 and y >= 0 and x < height and y < width:
+while x >= 0 and y >= 0 and x < width and y < height:
     c = grid[y][x]
     if c == '|' or c == '-':
         if d == 0:
