@@ -1,0 +1,3 @@
+Run main solution 1 with 200 to get correct answer
+Alternative solution 1 was assuming that the particle with the lowest acceleration would eventually be the closest to the centre
+
