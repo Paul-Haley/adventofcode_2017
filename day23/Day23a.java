@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Day22a {
+public class Day23a {
     static Map<Character, Long> initialiseRegisters() {
         Map<Character, Long> reg = new HashMap<Character, Long>();
         for (char c = 'a'; c <= 'h'; ++c) {
